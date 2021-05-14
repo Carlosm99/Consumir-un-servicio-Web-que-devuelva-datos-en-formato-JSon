@@ -1,6 +1,10 @@
-# Consumirjson
+# Consumir un servicio Web que devuelva datos en formato JSon
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+
+# Screen Shot de app<br>
+<img src="assets/images/screenshot.jpg" height="800"><br>
+<!-----![Screenshot](screenshot.jpg)--->
 
 ## Development server
 
