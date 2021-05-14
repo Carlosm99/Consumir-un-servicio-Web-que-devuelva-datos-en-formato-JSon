@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
 
-# Screen Shot de app<br>
+# Prueba de concepto<br>
 <img src="src/assets/Screenshot.png" height="460" width="800"><br>
 <!-----![Screenshot](screenshot.jpg)--->
 
