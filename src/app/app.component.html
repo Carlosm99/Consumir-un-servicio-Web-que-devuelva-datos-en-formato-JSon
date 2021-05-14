@@ -1,6 +1,9 @@
 <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand"><strong>REST COUNTRIES</strong></a>
   <a class="navbar-brand">powered by: Carlos Monterrosa</a>
+  <a class="navbar-brand" href="#">
+    <img src="https://qroo.gob.mx/sites/default/files/inline-images/TecChetumal-232x300_0.png" width="90" height="105" alt="">
+  </a>
   <form class="form-inline">
     <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
@@ -22,8 +25,10 @@
         <img class="card-img-top" src="{{pais.flag}}" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">{{pais.name}}</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h6>capital: {{pais.capital}}</h6>
+          <h6>populación: {{pais.population}}</h6>
+          <p class="card-text">zona horaria: {{pais.timezones}}</p>
+          <a href="#" class="btn btn-primary">región: {{pais.region }} </a>
         </div>
       </div>
   </div>
