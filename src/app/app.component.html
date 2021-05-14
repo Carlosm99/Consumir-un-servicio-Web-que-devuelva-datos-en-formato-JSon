@@ -12,3 +12,19 @@
 </div>
 <br>
 <p class="fp">El proyecto <strong>restcountries</strong> ha sido adquirido por apilayer, uno de los principales proveedores de microservicios API. Seguiremos apoyando los países de descanso y proporcionándola como una solución gratuita para los desarrolladores. Financiaremos este proyecto por completo y desactivaremos la función de donaciones.</p>
+
+
+<!-- to make the rows  -->
+<div class="container">
+  <div class="row align-items-center justify-content-center" >
+   
+      <div *ngFor="let pais of paises | async" class="card" style="width: 18rem; margin: auto;">
+        <img class="card-img-top" src="{{pais.flag}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{pais.name}}</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+  </div>
+</div>
